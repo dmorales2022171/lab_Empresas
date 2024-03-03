@@ -1,0 +1,166 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "companyCollection",
+    "dateExported": "2024-03-03T21:45:48.063Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "92c7b1f2-0641-4d0a-982b-bca1c3447c5b",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyPost",
+            "url": "http://localhost:8080/companiesApi/v1/companies",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T03:33:32.623Z",
+            "modified": "2024-03-03T21:42:55.893Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDA5MjEsImV4cCI6MTcwOTUwNDUyMX0.XHhKTsyJr7F0P8LF5OIl_x7CcEseBmjJh96oOM6LJ_g"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"nose\",\n  \"impactLevel\": 1, \n  \"yearsTrayectory\": 1,\n  \"category\": \"pequena\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1571aafc-2341-4686-a10c-7ba924f2a2b3",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyPut",
+            "url": "http://localhost:8080/companiesApi/v1/companies/65e4ed1d04cf09e4e2340645",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T04:18:40.145Z",
+            "modified": "2024-03-03T21:36:58.659Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDE4MDgsImV4cCI6MTcwOTUwNTQwOH0.cbETOTe5AGh9IHNGme7QWS9OT9Tp8JuS72ndHzpWvCU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"elefante\",\n  \"impactLevel\": 7,\n  \"yearsTrayectory\": 55,\n  \"category\": \"mediana\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9f8a07ac-c48d-45ba-9012-3efde695de13",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyGet",
+            "url": "http://localhost:8080/companiesApi/v1/companies",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-03T14:16:45.802Z",
+            "modified": "2024-03-03T21:22:14.951Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDA5MjEsImV4cCI6MTcwOTUwNDUyMX0.XHhKTsyJr7F0P8LF5OIl_x7CcEseBmjJh96oOM6LJ_g"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a3dc562-290c-4259-81ea-9611bc960b83",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyByYears",
+            "url": "http://localhost:8080/companiesApi/v1/companies/yearsTrayectory/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-03T18:53:37.149Z",
+            "modified": "2024-03-03T21:37:46.252Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7ad9b939-41b2-4413-a777-26a56d7797aa",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyByCategory",
+            "url": "http://localhost:8080/companiesApi/v1/companies/category/pequena",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-03T19:29:54.345Z",
+            "modified": "2024-03-03T21:43:09.176Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDE4MDgsImV4cCI6MTcwOTUwNTQwOH0.cbETOTe5AGh9IHNGme7QWS9OT9Tp8JuS72ndHzpWvCU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "aa35891a-a6ba-4913-a261-db1069a72fef",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyAcendent",
+            "url": "http://localhost:8080/companiesApi/v1/companies/A_Z",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-03T19:49:24.751Z",
+            "modified": "2024-03-03T21:39:16.605Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDE4MDgsImV4cCI6MTcwOTUwNTQwOH0.cbETOTe5AGh9IHNGme7QWS9OT9Tp8JuS72ndHzpWvCU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8b6835f3-6a70-44ff-bc59-7c40f231b4ca",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyByDecendent",
+            "url": "http://localhost:8080/companiesApi/v1/companies/Z_A",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-03T19:55:33.133Z",
+            "modified": "2024-03-03T21:39:36.157Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDE4MDgsImV4cCI6MTcwOTUwNTQwOH0.cbETOTe5AGh9IHNGme7QWS9OT9Tp8JuS72ndHzpWvCU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "87cd2126-599e-415f-8e6e-3c913c5ec24f",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyReport",
+            "url": "http://localhost:8080/companiesApi/v1/companies/report",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-03T21:07:28.734Z",
+            "modified": "2024-03-03T21:42:12.022Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk1MDE4MDgsImV4cCI6MTcwOTUwNTQwOH0.cbETOTe5AGh9IHNGme7QWS9OT9Tp8JuS72ndHzpWvCU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
