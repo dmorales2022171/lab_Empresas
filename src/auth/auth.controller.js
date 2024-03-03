@@ -34,6 +34,7 @@ export const login = async (req, res) => {
             msg: "Welcome",
             name: user.name,
             mail: user.mail,
+            role: user.role,
             token
         })
 

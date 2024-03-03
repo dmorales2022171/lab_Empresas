@@ -1,0 +1,76 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "companyCollection",
+    "dateExported": "2024-03-03T17:52:56.434Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "92c7b1f2-0641-4d0a-982b-bca1c3447c5b",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyPost",
+            "url": "http://localhost:8080/companiesApi/v1/companies",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T03:33:32.623Z",
+            "modified": "2024-03-03T04:10:31.225Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk0MzcyMzMsImV4cCI6MTcwOTQ0MDgzM30.yYUsPEZVbXBk3o0A3f3jHMrr2venD9m_ZpsR9shrRuA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"X\",\n  \"impactLevel\": 2, \n  \"yearsTrayectory\": 1,\n  \"category\": \"mediana\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1571aafc-2341-4686-a10c-7ba924f2a2b3",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyPut",
+            "url": "http://localhost:8080/companiesApi/v1/companies/65e3f22867cc9cb53b397ab6",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-03T04:18:40.145Z",
+            "modified": "2024-03-03T04:31:03.572Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk0NDAxOTcsImV4cCI6MTcwOTQ0Mzc5N30.Jdv2pzk0jZH1FTkhPy2haF9LKRfpccoydr0TzlNvfdQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Humans inc\",\n  \"impactLevel\": 2,\n  \"yearsTrayectory\": 3,\n  \"category\": \"fundacion\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9f8a07ac-c48d-45ba-9012-3efde695de13",
+            "colId": "176a24e1-0b79-4235-ae0e-8836d0de96a9",
+            "containerId": "",
+            "name": "companyGet",
+            "url": "http://localhost:8080/companiesApi/v1/companies",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-03T14:16:45.802Z",
+            "modified": "2024-03-03T14:17:29.370Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmFkNTk0ZDVjNGRhZmIxNWY2NjQiLCJpYXQiOjE3MDk0NzU0MzYsImV4cCI6MTcwOTQ3OTAzNn0.pZMV7HMNiJqq0XD7jQiurJ8IJ4aj-dNxHh7FBv2E2iU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
