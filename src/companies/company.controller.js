@@ -2,6 +2,7 @@
 
 import { response } from 'express';
 import Company from '../companies/company.model.js';
+import fs from 'fs';
 import ExcelJS from 'exceljs'
 
 export const companyPost = async (req, res) => {
@@ -93,6 +94,12 @@ export const getCompanyByDecendent = async (req, res) => {
 }
 
 export const generateCompanyReport = async (req, res) => {
+    const fileName = 'companyReport.xlsx';
+
+    if (fs.existsSync(fileName)) {
+        return res.status(400).json({ error: "The report has already been generated." });
+    }
+
     const workbook = new ExcelJS.Workbook();
     const worksheet = workbook.addWorksheet('Companies');
 
